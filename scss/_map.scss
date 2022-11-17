@@ -1,0 +1,44 @@
+.map {
+    background-color: #080816;
+    .container-xl {
+        background: url(../img/map/world_bg.png) center / cover no-repeat;
+        min-height: 720px;
+        position: relative;
+        padding-top: 46px;
+    }
+    .page-title {
+        // .page-title__name
+        color: white;
+
+        &__name {
+            background-color: white;
+            color: #000;
+        }
+
+        // .page-title__descr
+
+        &__descr {
+        }
+
+        // .page-title__subtitle
+
+        &__subtitle {
+        }
+    }
+
+    // .map__link
+
+    &__link {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: fit-content;
+        margin: 35px auto 35px auto;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 15px;
+        color: #1fbad6;
+    }
+}

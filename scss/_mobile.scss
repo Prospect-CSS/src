@@ -1,0 +1,117 @@
+.mobile {
+    // .mobile__title
+    background: url(../img/mobile/mobile_bg.jpg) center / cover no-repeat;
+    padding: 46px 0 80px 0px;
+
+    &__title {
+    }
+
+    // .mobile__title-name
+
+    &__title-name {
+    }
+
+    // .mobile__title-descr
+
+    &__title-descr {
+    }
+}
+.mobile-cards {
+    margin-top: 30px;
+    row-gap: 20px;
+}
+
+.mobile-card {
+    // .mobile-card__title
+    height: 280px;
+    width: 320px;
+    margin: 0 auto;
+    padding: 85px 20px 55px 20px;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        font-size: 24px;
+        line-height: 31px;
+        text-transform: uppercase;
+        text-align: center;
+        color: $color-white;
+        flex-grow: 1;
+    }
+
+    // .mobile-card__plus
+
+    &__plus {
+        align-self: center;
+        border-radius: 100%;
+        background-color: $color-white;
+        width: 26px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.3s;
+        &::before {
+            content: "";
+            width: 2px;
+            height: 14px;
+            display: block;
+            background-color: $color-blue;
+        }
+        &::after {
+            content: "";
+            width: 14px;
+            height: 2px;
+            display: block;
+            background-color: $color-blue;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &:hover {
+            background-color: $color-blue;
+            &::before,
+            &::after {
+                background-color: $color-white;
+            }
+        }
+    }
+
+    // .mobile-card__1
+
+    &__1 {
+        background: url(../img/mobile/1.jpg) center / cover no-repeat;
+    }
+
+    // .mobile-card__2
+
+    &__2 {
+        background: url(../img/mobile/2.jpg) center / cover no-repeat;
+    }
+
+    // .mobile-card__3
+
+    &__3 {
+        background: url(../img/mobile/3.jpg) center / cover no-repeat;
+    }
+
+    // .mobile-card__4
+
+    &__4 {
+        background: url(../img/mobile/4.jpg) center / cover no-repeat;
+    }
+
+    // .mobile-card__5
+
+    &__5 {
+        background: url(../img/mobile/5.jpg) center / cover no-repeat;
+    }
+
+    // .mobile-card__6
+
+    &__6 {
+        background: url(../img/mobile/6.jpg) center / cover no-repeat;
+    }
+}
